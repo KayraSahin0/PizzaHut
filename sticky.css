@@ -29,7 +29,7 @@ header{
 nav{
     position: fixed;
     width: 100%;
-    margin:50px
+    
 }
 
 nav ul{
@@ -60,6 +60,10 @@ nav ul li a{
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.menu{
+    
 }
 
 .appHeader-accountLinks{
