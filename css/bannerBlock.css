@@ -1,3 +1,117 @@
 .bannerBlock{
+
+    margin: 80px 0px;
+    padding: 0px 143px;
+}
+
+.bannerBlockHeader{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none solid rgba(0, 0, 0, 0.87);
+    line-height: 23px;
+    vertical-align: baseline;
+    margin-bottom: 16px;
+    
+    letter-spacing: normal;
+    -webkit-font-smooting: antialiased;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannerBlockHeader_link{
+    text-align: right;
+    color: red;
+    font-size: 14px;
+}
+
+.bannerBlockContainer{
+    background-color: black;
+    height: 570px;
+    min-width: 1171px;
+}
+
+.banner_block-container_title{
+    color: white;
+    padding-top: 32px;
+    text-align: center;
+    font-family: sans-serif, Rubik-Bold;
+    margin-bottom: 80px;
+}
+.banner_block-container_title img{
+    margin-bottom: 24px;
+}
+
+.banner_block-container_title_text{
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.banner_block-container_title_text span{
+    font-size: 32px;
+    color: white;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.banner_block-container_register{
+    background-color: #F6A32B;
+    text-align: center;
+    padding: 12px 10px;
+    width: 230px;
+    height: 43px;
+    margin-left: 40%;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Roboto-Bold, sans-serif;
+    border-radius: 4px; /*olusan butonun kenarlarini yuvarlaklastirdik. */
+    display: block;
+}
+
+.banner_block-container_register span{
+    font-weight: 700;
+}
+
+/* Banner Main (alttaki fotograflar) */
+.banner_block-container_main{
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: inherit;
+}
+
+.banner_block-container_item{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    
+
+
+}
+
+.banner_block-container_item_logo{
+    margin-right: 500px;
+}
+
+.banner_block_container_item_title{
+    color: #BAB8B8;
+    font-family: sans-serif, Roboto-Light;
+    font-size: 20px;
+    line-height: 23px;
+    vertical-align: baseline;
+    letter-spacing: normal;
     padding: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: 100%;
+    letter-spacing: normal;
+    -webkit-font-smooting: antialiased;
+}
+.banner_block_container_item_title span{
+    font-weight: 800;
+    color: #CFCDCD;
 }

@@ -7,6 +7,13 @@ header {
     
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+}
+
 .logo img{
     padding-left: 170px;
     margin-top: 9px;
@@ -17,6 +24,7 @@ nav ul {
     list-style: none;
     padding-left: 1px;
     margin-top: -25px;
+    box-sizing: inherit;
 }
 
 nav li {
@@ -36,8 +44,3 @@ nav li a {
     -webkit-font-smooting: antialiased;
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-    z-index: 3;
-}

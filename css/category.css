@@ -1,6 +1,6 @@
 .categoryBlock {
     margin: 80px 0px;
-    padding: 0px 168px;
+    padding: 0px 143px;
 
 }
 
@@ -12,8 +12,10 @@
     line-height: 23px;
     vertical-align: baseline;
     margin: 0px 0px 16px;
+    padding-left: 25px;
     letter-spacing: -0.2px;
     -webkit-font-smooting: antialiased;
+    text-align: start;
 }
 
 .categoryBlockBody {
@@ -36,18 +38,20 @@
 .categoryBlockItemImage {
     margin-bottom: 16px;
     cursor: pointer;
+    text-align: center;
 }
 
-.categoryBlockItemImage:hover {}
+
 
 
 
 .categoryBlockItemTitle {
-    text-align: center;
     font-family: sans-serif;
+    text-align: center;
     font-size: 16px;
     vertical-align: baseline;
-    font-weight: 700px;
+    font-weight: bolder;
     text-decoration: none;
-
+    letter-spacing: -0.4px;
+    -webkit-font-smooting: antialiased;
 }
