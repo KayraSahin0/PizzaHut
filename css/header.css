@@ -1,3 +1,11 @@
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+}
+
+
 header {
     display: flex;
     background-color: #ffffff;
@@ -7,12 +15,6 @@ header {
     
 }
 
-.sticky {
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    background-color: white;
-}
 
 .logo img{
     padding-left: 170px;
